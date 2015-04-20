@@ -3,10 +3,15 @@
 Este es el repositorio oficial para compartir información, código, material externo, entre otros (...) que complementa los temas tratados en clase.
 
 
-### ¡Para tener en cuenta!
+### ¡Para Tener en Cuenta!
 
 El espacio de comunicación y dudas esta abierto y sera como en consenso se decidió con el grupo; en GitHub en el repositorio oficial del Diplomado, a través de la herramienta de gestión de incidencias `issues`.
 
+##### ¿Qué se dede publicar en los `issues`?
+* Errores en alguno de los ejercicios y/o ejemplos que se trabajan en el Diplomado
+* Errores que se les presente con la instalación o alistamiento de los equipos para desarrollar aplicaciones móviles
+* Dudas, preguntas, consultas para que todos los participantes podamos colaborar o ayudar a solucionar
+* Material extra (articulos, e-books, entre otros...) para compartir con los participantes
 
 ### Material Extra
 
