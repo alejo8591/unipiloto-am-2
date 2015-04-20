@@ -26,3 +26,16 @@ Personas que han contribuido y colaborado con material, intervenciones y ayudas 
 
 * Crhistian Ovalle [@desaextremo](https://github.com/desaextremo)
 
+
+### Creditos
+
+Creado por Alejandro Romero. Copyright (c) 2015.
+
+### Opciones de Licencia
+
+Publicado bajo licencia MIT
+
+¿Tiene alguna pregunta que no es una solicitud de función o informe de error? Por favor crear un incidente en los  `issues` de este repositorio.
+
+Ver LICENSE.txt de licencia.
+
