@@ -33,7 +33,7 @@ Publicado bajo licencia MIT
 
 ¿Tiene alguna pregunta que no es una solicitud de función o informe de error? Por favor crear un incidente en los  `issues` de este repositorio.
 
-Ver el archivo [LICENSE](http://git.io/vfeRu) de licencia.
+Ver el archivo [LICENSE](http://git.io/vfeRu) para más detalles.
 
 ### Opciones de Licencia para Documentos Creados
 
@@ -43,4 +43,3 @@ Los documentos creados por [Alejandro Romero](http://www.linkedin.com/in/alejo85
 ### Creditos
 
 Creado por [Alejandro Romero](http://www.linkedin.com/in/alejo8591). Copyright (c) 2015.
-
