@@ -37,5 +37,5 @@ Publicado bajo licencia MIT
 
 ¿Tiene alguna pregunta que no es una solicitud de función o informe de error? Por favor crear un incidente en los  `issues` de este repositorio.
 
-Ver LICENSE.txt de licencia.
+Ver el archivo [LICENSE](http://git.io/vfeRu) de licencia.
 
