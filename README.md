@@ -10,7 +10,7 @@ El espacio de comunicación y dudas esta abierto y sera como en consenso se deci
 
 ### Material Extra
 
-* [En la wiki del repositorio encuentran un este espacio donde se colocara información, artículos, cursos, e-books y material que pueda servir de apoyo.](http://bit.ly/diplomado-am-2-material):
+* [En la wiki del repositorio encuentran un este espacio donde se colocara información, artículos, cursos, e-books y material que pueda servir de apoyo.](http://bit.ly/diplomado-am-2-material)
 
 * [Cheat Sheets o Chuletas](http://git.io/vvjdX)
 
