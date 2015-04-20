@@ -17,7 +17,7 @@ El espacio de comunicación y dudas esta abierto y sera como en consenso se deci
 
 ### Colaboradores
 
-Personas que han contribuido con y colaborado con material, intervenciones y colaboraciones en los diferentes temas tratados en el diplomado:
+Personas que han contribuido y colaborado con material, intervenciones y ayudas en los diferentes temas tratados en el diplomado:
 
 * [Crhistian Ovalle @desaextremo](https://github.com/desaextremo)
 
