@@ -27,15 +27,20 @@ Personas que han contribuido y colaborado con material, intervenciones y ayudas 
 * Crhistian Ovalle [@desaextremo](https://github.com/desaextremo)
 
 
-### Creditos
-
-Creado por Alejandro Romero. Copyright (c) 2015.
-
-### Opciones de Licencia
+### Opciones de Licencia para el Código Fuente
 
 Publicado bajo licencia MIT
 
 ¿Tiene alguna pregunta que no es una solicitud de función o informe de error? Por favor crear un incidente en los  `issues` de este repositorio.
 
 Ver el archivo [LICENSE](http://git.io/vfeRu) de licencia.
+
+### Opciones de Licencia para Documentos Creados
+
+Los documentos creados por [Alejandro Romero](http://www.linkedin.com/in/alejo8591) (autor del repositorio) están amparados por una licencia Creative Commons V.4.0. Atribución-NoComercial-CompartirIgual (CC BY-NC-SA): Esta licencia permite a otros distribuir, remezclar, retocar, y crear a partir de esta obra de modo no comercial, siempre y cuando otorguen el crédito y licencien sus nuevas creaciones bajo las mismas condiciones. Se sugiere utilizar este tipo de licenciamiento por si desean compartir contenido escrito.
+
+
+### Creditos
+
+Creado por [Alejandro Romero](http://www.linkedin.com/in/alejo8591). Copyright (c) 2015.
 
