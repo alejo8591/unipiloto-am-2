@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" data-framework="angularjs">
+	<head>
+		<meta charset="utf-8">
+		<title>AngularJS</title>
+	</head>
+	<body>
+        <script src="js/libs/angular.min.js"></script>
+		<script src="js/libs/angular-route.min.js"></script>
+        <script src="js/libs/angular-resource.min.js"></script>
+		<script src="js/app.js"></script>
+        <script src="js/services/services.js"></script>
+		<script src="js/controllers/controllers.js"></script>
+        <div ng-app="lab29">
+            <h1>Info</h1>
+             <ul>
+                 <li><a href="#/">Saludar</a></li>
+                 <li><a href="#/data">Data</a></li>
+             </ul>
+
+         <div ng-view></div>
+        </div>
+	</body>
+</html>
