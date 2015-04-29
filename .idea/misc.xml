@@ -20,12 +20,16 @@
   <component name="ProjectModuleManager">
     <modules />
   </component>
+<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.4.2 (~/.pyenv/versions/3.4.2/bin/python)" project-jdk-type="Python SDK" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$/.pyenv/versions/3.4.2/bin/python" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
+=======
+  <component name="ProjectRootManager" version="2" project-jdk-name="Unknown at ~/Documents/backend-lab/diptera/bin/python" project-jdk-type="Python SDK" />
+>>>>>>> a9191cb22a0da7f96aedfdf21bde956665103305
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings />
