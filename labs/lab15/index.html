@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="fruitStore">
+<head>
+	<title>AngularJS First Application</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+	<div class="number" ng-controller="controller_one">
+		<label for="numberT">Fresa a $300:</label>
+		<input type="text" name="numberT" ng-model="numberT" />
+		<h2>Cantidad de Fresas:</h2>
+		<h1>Precio total: {{ numberT * numberD | currency: "$" }}</h1>
+	</div>
+
+	<div class="number" ng-controller="controller_two">
+		<label for="numberP">Papaya a $500:</label>
+		<input type="text" name="numberP" ng-model="numberP" />
+		<h2>Cantidad de Papayas:</h2>
+		<h1>Precio total: {{ numberP * numberO | currency: "$" }}</h1>
+	</div>
+	
+	<script type="text/javascript" src="../assets/angular.min.js"></script>
+
+	<script type="text/javascript">
+		angular.module('fruitStore', [])
+			   .controller('controller_one', ['$scope', function($scope){
+
+				   	$scope.numberT = 0;
+				   	$scope.numberD = 300;
+
+			   }])
+
+			   .controller('controller_two', ['$scope', function($scope){
+			   		$scope.numberP = 0;
+				   	$scope.numberO = 500;
+			   }]);
+	</script>
+</body>
+</html>
