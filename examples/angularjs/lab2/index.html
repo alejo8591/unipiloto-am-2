@@ -21,6 +21,6 @@
 <!-- Uso del controlador 'StudentController' a través de la directiva ng-controllers  -->
 <body ng-controller="StudentController">
 <!-- Uso del modelo instanciado en 'StudentController' a traves de expresiones  -->
-  {{ student.name }} Estudia {{ student.course }}
+  {{ student.name | uppercase }} Estudia {{ student.course }}
 </body>
 </html>
