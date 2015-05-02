@@ -24,6 +24,8 @@ El espacio de comunicación y dudas esta abierto y sera como en consenso se deci
 Personas que han contribuido y colaborado con material, intervenciones y ayudas en los diferentes temas tratados en el diplomado:
 
 * Crhistian Ovalle [@desaextremo](https://github.com/desaextremo)
+* Jhon Castillo [@JhonCastilloH](https://github.com/JhonCastilloH)
+* Andrés Amin [@andresDesigner](https://github.com/andresDesigner)
 
 
 ### Opciones de Licencia para el Código Fuente
