@@ -8,14 +8,14 @@
         <title>Hello World</title>
     </head>
     <body>
-        <div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
-        </div>
+        <p>
+            Aplicación de Device Motion "Accelerometer", método getCurrentAcceleration() del objeto accelerometer
+        </p>
+        <input type="button" value="Verificar Acelerometro" onclick="getAcceleration();">
+        <div id="acceleration-info"></div>
+
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <script src="js/lab34.js"></script>
     </body>
 </html>

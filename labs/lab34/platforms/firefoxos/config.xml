@@ -4,6 +4,9 @@
         <icon height="128" src="icon/icon-128.png" width="128" />
         <icon height="60" src="icon/icon-60.png" width="60" />
     </platform>
+    <feature name="Accelerometer">
+        <param name="firefoxos-package" value="Accelerometer" />
+    </feature>
     <name>Lab34</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
