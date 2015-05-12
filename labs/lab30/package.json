@@ -1,0 +1,16 @@
+{
+  "name": "lab30",
+  "version": "0.1.0",
+  "description": "lab6",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alejandro Romero",
+  "license": "MIT", 
+  "dependencies": {
+    "body-parser": "^1.9.2",
+    "express": "^4.10.1",
+    "socket.io": "^1.2.0"
+  }
+}
