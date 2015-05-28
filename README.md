@@ -26,7 +26,7 @@ Personas que han contribuido y colaborado con material, intervenciones y ayudas 
 * Crhistian Ovalle [@desaextremo](https://github.com/desaextremo)
 * Jhon Castillo [@JhonCastilloH](https://github.com/JhonCastilloH)
 * Andrés Amin [@andresDesigner](https://github.com/andresDesigner)
-* 
+* Olman Ibañez [@olmandocs](https://github.com/olmandocs)
 
 
 ### Opciones de Licencia para el Código Fuente
