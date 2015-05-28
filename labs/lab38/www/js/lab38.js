@@ -1,20 +1,40 @@
-setTimeout(function(){
+var data_node = document.getElementById('heading-info');
 
-    var network_state = navigator.connection.type;
+function getHeading(){
+	 console.log('getHeading OK');
+	 navigator.compass.getCurrentHeading(onHeadingSuccess, onHeadingError);
+}
 
-    console.log('Connection Type');
+function onHeadingSuccess(compass){
+	console.log('onHeadingSuccess OK');
 
-    var states = {};
+	var date = new Date(compass.timestamp);
 
-    states[Connection.UNKNOWN] = 'Unknow';
-    states[Connection.ETHERNET] = 'ETHERNET';
-    states[Connection.WIFI] = 'WI-FI';
-    states[Connection.CELL_2G] = 'CELL 2G';
-    states[Connection.CELL_3G] = 'CELL 3G';
-    states[Connection.CELL_4G] = 'CELL 4G';
-    states[Connection.NONE] = 'NONE';
+	console.log(compass.magneticHeading, compass.trueHeading, compass.headingAccuracy, date.toLocaleString());
 
-    document.getElementById('network-information').innerHTML = '<h2> Se conecta con: ' + states[network_state] + '</h2>';
+	data_node.innerHTML = '<b>magneticHeading:</b> ' + compass.magneticHeading + '<br />' +
+						  '<b>trueHeading:</b> ' + compass.trueHeading + '<br />' +
+						  '<b>headingAccuracy:</b> ' + compass.headingAccuracy + '<br />' +
+						  '<b>timestamp:</b> ' + date.toLocaleString() + '<br />';
 
-}, 500);
+}
 
+function onHeadingError(compassError){
+	console.log('onHeadingError OK');
+
+	if (compassError.code == CompassError.COMPASS_NOT_SUPPORTED) {
+
+		data_node.innerHTML = '<b>Bruluja no disponible</b>';
+		alert('Bruluja no disponible');
+
+	} else if (compassError.code == CompassError.COMPASS_INTERNAL_ERR) {
+
+		data_node.innerHTML = '<b>Compass Internal Error</b>';
+		alert('Compass Internal Error');
+
+	} else {
+
+		data_node.innerHTML = '<b>Error indeterminado o no reconocido por el API</b>';
+		alert('Error indeterminado o no reconocido por el API');
+	}
+}

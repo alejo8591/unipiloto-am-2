@@ -1,24 +1,25 @@
-var info = document.getElementById('acceleration-info');
+console.log('after onDeviceReady');
 
-console.log('Escuchando un evento del tipo click');
-
-function getAcceleration(){
-    console.log('getAcceleration -> Ok');
-    info.innerHTML = '';
-    // Obteniendo la orientacion del dispositivo
-    alert('GetAcceleration Ok!');
-    navigator.accelerometer.getCurrentAcceleration(onAccelerationSuccess, onAccelerationError);
-}
+var data_node = document.getElementById('acceleration-info');
 
 function onAccelerationSuccess(acceleration){
-    var date = new Date(acceleration.timestamp);
-    info.innerHTML = '<b>Aceleración en X: ' + acceleration.x + '<br />' +
-                     '<b>Aceleración en Y: ' + acceleration.y + '<br />' +
-                    '<b>Aceleración en Z: ' + acceleration.z + '<br />' +
-                     '<b>timestamp: ' + date.toLocaleString() + '<br />';
+
+    console.log('onAccelerationSuccess ok');
+
+	data_node.innerHTML = '<b>X:</b> ' + acceleration.x + '<br />' +
+						  '<b>Y:</b> ' + acceleration.y + '<br />' +
+						  '<b>Z:</b> ' + acceleration.z + '<br />';
 }
 
 function onAccelerationError(){
-    console.log('Error en el acelerometro');
-    alert('Error en el acelerometro');
+	console.log('onAccelerationError ok');
+}
+
+var activateAccelerometer = function(){
+
+    console.log('activateAccelerometer ok');
+
+	var options = {frequency: 500};
+
+	var watchID = navigator.accelerometer.watchAcceleration(onAccelerationSuccess, onAccelerationError, options);
 }
