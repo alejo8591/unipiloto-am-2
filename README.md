@@ -17,16 +17,19 @@ El espacio de comunicación y dudas esta abierto y sera como en consenso se deci
 
 * [En la wiki del repositorio encuentran un este espacio donde se colocara información, artículos, cursos, e-books y material que pueda servir de apoyo.](http://bit.ly/diplomado-am-2-material)
 * [Cheat Sheets o Chuletas](http://git.io/vvjdX)
+* [Depuración (Debugging) en Apache Cordova](http://git.io/vkli0)
 
 
 ### Colaboradores
 
 Personas que han contribuido y colaborado con material, intervenciones y ayudas en los diferentes temas tratados en el diplomado:
 
+* Andrés Amin [@andresDesigner](https://github.com/andresDesigner)
 * Crhistian Ovalle [@desaextremo](https://github.com/desaextremo)
 * Jhon Castillo [@JhonCastilloH](https://github.com/JhonCastilloH)
-* Andrés Amin [@andresDesigner](https://github.com/andresDesigner)
+* Juan Manuel Ocampo Valencia [ingjuanocampo](https://github.com/ingjuanocampo)
 * Olman Ibañez [@olmandocs](https://github.com/olmandocs)
+* Ricardo Santacruz [ricarsant](https://github.com/ricarsant)
 
 
 ### Opciones de Licencia para el Código Fuente
