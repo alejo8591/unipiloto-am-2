@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+
+    <ion-pane>
+      <ion-header-bar class="bar-stable bar-energized">
+        <h1 class="title">Ionic Radio Buttons & Range</h1>
+      </ion-header-bar>
+      <ion-content>
+        <h2>Range</h2>
+        <div class="item range">
+          <i class="icon ion-volume-low"></i>
+          <input type="range" name="volume">
+          <i class="icon ion-volume-high"></i>
+        </div>
+
+        <div class="list">
+          <div class="item range range-positive">
+            <i class="icon ion-ios-sunny-outline"></i> 
+            <input type="range" name="volume" step="0.01" min="0" max="100" value="33">
+            <i class="icon ion-ios-sunny"></i>
+          </div>
+
+            <div class="item range range-energized">
+                <i class="icon ion-ios-minus"></i>
+                <input type="range" name="volume" step="0.01" min="0" max="100" value="20">
+                <i class="icon ion-plus"></i>
+            </div>
+        </div>
+
+          <h2>Radio Button</h2>
+          <div class="list">
+
+              <label class="item item-radio">
+                  <input type="radio" name="group">
+                  <div class="item-content">
+                      Go
+                  </div>
+                  <i class="radio-icon ion-checkmark"></i>
+              </label>
+
+              <label class="item item-radio">
+                  <input type="radio" name="group">
+                  <div class="item-content">
+                      Cobol
+                  </div>
+                  <i class="radio-icon ion-checkmark"></i>
+              </label>
+
+              <label class="item item-radio">
+                  <input type="radio" name="group">
+                  <div class="item-content">
+                      .Net
+                  </div>
+                  <i class="radio-icon ion-checkmark"></i>
+              </label>
+
+          </div>
+      </ion-content>
+    </ion-pane>
+  </body>
+</html>

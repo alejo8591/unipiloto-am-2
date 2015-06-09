@@ -13,6 +13,10 @@
       <excludeFolder url="file://$MODULE_DIR$/labs/lab41/platforms" />
       <excludeFolder url="file://$MODULE_DIR$/labs/lab42/platforms" />
       <excludeFolder url="file://$MODULE_DIR$/labs/lab43/platforms" />
+      <excludeFolder url="file://$MODULE_DIR$/labs/lab44/platforms" />
+      <excludeFolder url="file://$MODULE_DIR$/labs/lab45/platforms" />
+      <excludeFolder url="file://$MODULE_DIR$/labs/lab46/platforms" />
+      <excludeFolder url="file://$MODULE_DIR$/labs/lab47/platforms" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
